@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(170, 225, 249);
+    text-align: center;
+}
+
+#welcome {
+    font-family: cursive;
+    color: chocolate;
+    z-index: 1;
+}
+
+.profile {
+    border-radius: 5000px;
+    width: 250px;
+    margin-top: 100px;
+}
+
+hr {
+    background-color: maroon;
+}
+
+#bio {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(34, 30, 66);
+}
+
+#menu {
+    list-style: none;
+    position:fixed;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 2;
+    cursor: pointer;
+    background-color: rgb(245, 246, 247);
+    width: 100%;
+}
+
+.list {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
+    font-size: 40px;
+    color: rgb(99, 32, 32);
+    font-weight: bold;
+    font-family: 'Square Peg', cursive;
+    
+}
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.line{
+height: 6px;
+width: 30px;
+color: rgb(9, 9, 9);
+margin: 8px auto;
+
+}
+h1{
+    font-size: 50px;
+    font-style: bold;
+    font-family: 'Are You Serious', cursive;
+    top: none;
+}
+.list:hover{
+    font-size: 45px;
+    text-decoration:underline;
+}
+a{
+    text-decoration: none;
+}
+#Writings a{
+    text-decoration: underline !important;
+    color: rgb(189, 91, 6) !important;
+    font-size: 20px;
+}
